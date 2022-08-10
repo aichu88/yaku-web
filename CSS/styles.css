@@ -1,20 +1,58 @@
 body{
     font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
 }
 .encabezado{
     text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 .botones{
     text-align: center;
+    margin-bottom: 70px;
 }
 .boton{
     border: 1px solid white;
-    padding: 10px;
-    background-color: mediumseagreen;
+    padding: 15px;
+    background-color: rgb(99, 33, 129);
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 50px;
-    margin: 10px;
+    margin: 20px;
     display:inline-flex;
+}
+.respuestas{
+    margin: 190px;
+    border: 5px solid rgba(174, 0, 197, 0.281);
+}
+.carrusel{
+    align-content: center;
+    text-align: center;
+    width: 240px;
+    height: 270px;
+    overflow-x: scroll;
+    scroll-snap-type:x mandatory;
+    display: flex;
+    margin: 0 auto;
+}
+.carrusel img{
+    flex: 0 0 100%;
+    width:auto;
+    object-fit: cover;
+    scroll-snap-align: center;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    text-align: left;
+    height: 50px;
 }
