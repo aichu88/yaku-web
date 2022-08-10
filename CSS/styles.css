@@ -30,14 +30,21 @@ h1{
     border: 5px solid rgba(174, 0, 197, 0.281);
 }
 .carrusel{
+<<<<<<< HEAD
+=======
+    display: flex;
+>>>>>>> 3e5dadac85fc2a5867e5a143d784bbc3bf2ebfd0
     align-content: center;
     text-align: center;
     width: 240px;
     height: 270px;
     overflow-x: scroll;
     scroll-snap-type:x mandatory;
+<<<<<<< HEAD
     display: flex;
     margin: 0 auto;
+=======
+>>>>>>> 3e5dadac85fc2a5867e5a143d784bbc3bf2ebfd0
 }
 .carrusel img{
     flex: 0 0 100%;
